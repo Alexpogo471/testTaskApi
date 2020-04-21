@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2d7f0e-6aae-4ebd-bbcf-01660637196a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Ad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PageRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/UserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task2/OpenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/OpenTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +42,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Api\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,50 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ApiTest.sendUser">
-    <configuration name="ApiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ApiTest&quot; --scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Api.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="task1.ApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.getRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Api.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="task1.ApiTest" />
-      <option name="METHOD_NAME" value="getRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.OpenTest">
     <configuration name="ApiTest.getUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Api.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -135,13 +90,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.OpenTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenTest.openSite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.OpenTest" />
+      <option name="METHOD_NAME" value="openSite" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenTest.trst" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.OpenTest" />
+      <option name="METHOD_NAME" value="trst" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OpenTest" />
+        <item itemvalue="TestNG.OpenTest.trst" />
+        <item itemvalue="TestNG.OpenTest.openSite" />
         <item itemvalue="TestNG.ApiTest.sendUser" />
         <item itemvalue="TestNG.ApiTest.getUsers" />
-        <item itemvalue="TestNG.ApiTest.getRequest" />
-        <item itemvalue="TestNG.ApiTest" />
-        <item itemvalue="Gradle.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587464577986</updated>
     </task>
+    <task id="LOCAL-00001" summary="add tests get and post">
+      <created>1587490335277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587490335277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tests get and post" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests get and post" />
   </component>
 </project>
