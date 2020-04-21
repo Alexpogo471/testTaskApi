@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2d7f0e-6aae-4ebd-bbcf-01660637196a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task1/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task1/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task1/pojo/UserPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/pojo/UserPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/task2/OpenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/OpenTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,9 +67,40 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.OpenTest">
-    <configuration name="ApiTest.getUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Api.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api.test" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1" />
+      <option name="MAIN_CLASS_NAME" value="task1.ApiTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.getUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1" />
       <option name="MAIN_CLASS_NAME" value="task1.ApiTest" />
       <option name="METHOD_NAME" value="getUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -107,47 +139,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenTest.openSite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Api.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="task2" />
-      <option name="MAIN_CLASS_NAME" value="task2.OpenTest" />
-      <option name="METHOD_NAME" value="openSite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenTest.trst" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Api.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="task2" />
-      <option name="MAIN_CLASS_NAME" value="task2.OpenTest" />
-      <option name="METHOD_NAME" value="trst" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.OpenTest" />
-        <item itemvalue="TestNG.OpenTest.trst" />
-        <item itemvalue="TestNG.OpenTest.openSite" />
+        <item itemvalue="TestNG.ApiTest" />
+        <item itemvalue="JUnit.All in Api.test" />
         <item itemvalue="TestNG.ApiTest.sendUser" />
         <item itemvalue="TestNG.ApiTest.getUsers" />
       </list>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587490335277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add UI tests with Selenide">
+      <created>1587500589539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587500589539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tests get and post" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests get and post" />
+    <MESSAGE value="add UI tests with Selenide" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UI tests with Selenide" />
   </component>
 </project>

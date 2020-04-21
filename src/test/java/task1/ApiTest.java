@@ -36,10 +36,10 @@ public class ApiTest {
                 .post("/api/users");
         Assert.assertEquals(response.getStatusCode(), 201);
         UserPost user = response.as(UserPost.class);
+        Assert.assertEquals(new UserPost("morpheus","leader"),user);
         System.out.println(response.asString());
         System.out.println(user);
 
 
     }
-
 }

@@ -3,7 +3,6 @@ package task1.pojo;
 
 public class User{
 
-
     private int id;
 
     private String email;
@@ -13,17 +12,6 @@ public class User{
     private String last_name;
 
     private String avatar;
-
-    private String job;
-
-
-    public String getJob() {
-        return job;
-    }
-
-    public void setJob(String job) {
-        this.job = job;
-    }
 
     public void setId(int id){
         this.id = id;
@@ -64,7 +52,6 @@ public class User{
                 ", first_name='" + first_name + '\'' +
                 ", last_name='" + last_name + '\'' +
                 ", avatar='" + avatar + '\'' +
-                ", job='" + job + '\'' +
                 '}';
     }
 }

@@ -1,5 +1,7 @@
 package task1.pojo;
 
+import java.util.Objects;
+
 public class UserPost {
     private int id;
 
@@ -43,5 +45,19 @@ public class UserPost {
                 ", name='" + name + '\'' +
                 ", job='" + job + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        UserPost userPost = (UserPost) o;
+        return name.equals(userPost.name) &&
+                job.equals(userPost.job);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, job);
     }
 }
